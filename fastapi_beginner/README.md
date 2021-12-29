@@ -1,6 +1,6 @@
 # Python Micro Framework Data FastAPI Beginner
 
-This document is a high-level example of using [pymfdata](https://github.com/NEONKID/python-mf-data) in FastAPI, and includes additional configuration such as dependency injection and layered architecture.
+This document is a basic example of using [pymfdata](https://github.com/NEONKID/python-mf-data) in FastAPI, and it consists of a single file.
 
 * [한국어](https://github.com/NEONKID/python-mf-data-example/blob/main/fastapi_beginner/README.ko.md)
 

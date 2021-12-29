@@ -55,7 +55,7 @@ You can install the dependencies needed for this project via ```poetry install``
 See how it works by project.
 
 * [FastAPI Beginner](https://github.com/NEONKID/python-mf-data-example/blob/main/fastapi_beginner/README.md)
-* [FastAPI Advanced]((https://github.com/NEONKID/python-mf-data-example/blob/main/fastapi_advanced/README.md))
+* [FastAPI Advanced](https://github.com/NEONKID/python-mf-data-example/blob/main/fastapi_advanced/README.md)
 
 
 

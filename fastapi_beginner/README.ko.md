@@ -1,6 +1,6 @@
 # Python Micro Framework Data FastAPI Beginner
 
-This document is a basic example of using [pymfdata](https://github.com/NEONKID/python-mf-data) in FastAPI, and it consists of a single file.
+이 문서는 FastAPI에서 [pymfdata](https://github.com/NEONKID/python-mf-data)를 사용할 수 있는 기초적인 방법을 제공합니다. 
 
 * [English](https://github.com/NEONKID/python-mf-data-example/blob/main/fastapi_beginner/README.md)
 
