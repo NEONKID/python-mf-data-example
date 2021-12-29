@@ -3,7 +3,7 @@ from httpx import AsyncClient
 
 from common.tests import en_faker, ko_faker
 
-from fastapi_app.src.asgi import api
+from fastapi_advanced.src.asgi import api
 
 
 @pytest.fixture(scope="session")

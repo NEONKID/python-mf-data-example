@@ -6,7 +6,7 @@ from unittest import TestCase
 from common.tests import en_faker, ko_faker
 from common.tests import test_db_connect
 
-from fastapi_app.src.app import create_app
+from fastapi_advanced.src.app import create_app
 
 
 @pytest.fixture(scope="session")

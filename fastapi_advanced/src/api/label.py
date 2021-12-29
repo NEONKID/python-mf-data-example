@@ -5,7 +5,7 @@ from typing import List
 from common.modules.label.application.usecase import LabelUseCase
 from common.modules.label.domain.dto import LabelResponse, LabelSingleResponse
 
-from fastapi_app.src.containers import Container
+from fastapi_advanced.src.containers import Container
 
 router = APIRouter(prefix='/labels')
 metadata = {

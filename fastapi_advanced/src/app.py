@@ -3,13 +3,13 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import ORJSONResponse
 from loguru import logger
 
-from fastapi_app.routes import add_routes
-from fastapi_app.middlewares import add_middlewares
-from fastapi_app.middlewares.json import RequireJSON
-from fastapi_app.middlewares.log import LoggerMiddleware
-from fastapi_app.middlewares.timeheader import TimeHeaderMiddleware
-from fastapi_app.src.api import memo, label
-from fastapi_app.src.containers import Container
+from fastapi_advanced.routes import add_routes
+from fastapi_advanced.middlewares import add_middlewares
+from fastapi_advanced.middlewares.json import RequireJSON
+from fastapi_advanced.middlewares.log import LoggerMiddleware
+from fastapi_advanced.middlewares.timeheader import TimeHeaderMiddleware
+from fastapi_advanced.src.api import memo, label
+from fastapi_advanced.src.containers import Container
 
 
 def create_app(create_db: bool = False):

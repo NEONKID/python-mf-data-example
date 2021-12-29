@@ -6,7 +6,7 @@ from typing import List
 from common.modules.memo.application.usecase import MemoUseCase
 from common.modules.memo.domain.dto import MemoRegister, MemoUpdate, MemoResponse, MemoSingleResponse
 
-from fastapi_app.src.containers import Container
+from fastapi_advanced.src.containers import Container
 
 router = APIRouter(prefix='/memos')
 metadata = {
