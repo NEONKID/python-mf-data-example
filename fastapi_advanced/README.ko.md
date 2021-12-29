@@ -2,7 +2,7 @@
 
 이 문서는 [pymfdata](https://github.com/NEONKID/python-mf-data)를 FastAPI에서 사용한 고급 예시이며 의존성 주입, 계층형 아키텍처 등의 구성을 추가 포함하고 있습니다.
 
-* [English](https://github.com/NEONKID/python-mf-data-example/blob/main/README.md)
+* [English](https://github.com/NEONKID/python-mf-data-example/blob/main/fastapi_advanced/README.md)
 
 
 

@@ -52,26 +52,10 @@ You can install the dependencies needed for this project via ```poetry install``
 
 ## How to run
 
-Install PostgreSQL to run this project right away. (Docker or direct installation is fine)
+See how it works by project.
 
-If you want to change the environment settings, you can use the ```common/resources/.env``` file.
-
-```shell
-$ python fastapi_advanced/run.py
-```
-
-```
-Traceback (most recent call last):
-  File "fastapi_advanced/run.py", line 3, in <module>
-    from fastapi_advanced.src.app import create_app
-ModuleNotFoundError: No module named 'fastapi_advanced'
-```
-
-If you get the above error, try replacing PYTHONPATH with your current path.
-
-```shell
-$ export PYTHONPATH=.
-```
+* [FastAPI Beginner](https://github.com/NEONKID/python-mf-data-example/blob/main/fastapi_beginner/README.md)
+* [FastAPI Advanced]((https://github.com/NEONKID/python-mf-data-example/blob/main/fastapi_advanced/README.md))
 
 
 

@@ -22,7 +22,7 @@ $ pip install poetry
 $ brew install poetry
 ```
 
-pip, 혹은 HomeBrew 커맨드를 이용하여 poetry를 설치합니다.
+pip, 혹은 Homebrew 커맨드를 이용하여 poetry를 설치합니다.
 
 
 
@@ -52,26 +52,10 @@ poetry install 명령어를 통해 이 프로젝트에 필요한 디펜던시를
 
 ## How to run
 
-이 프로젝트를 바로 실행하려면 PostgreSQL을 설치하십시오. (Docker 혹은 직접 설치도 괜찮습니다)
+프로젝트별 실행 방법을 참고하십시오.
 
-환경 설정을 바꾸고자 하는 경우 ```common/resources/.env``` 파일을 이용하시면 됩니다.
-
-```shell
-$ python fastapi_advanced/run.py
-```
-
-```
-Traceback (most recent call last):
-  File "fastapi_advanced/run.py", line 3, in <module>
-    from fastapi_advanced.src.app import create_app
-ModuleNotFoundError: No module named 'fastapi_advanced'
-```
-
-만약 위의 오류가 나타난다면 PYTHONPATH를 현재 경로로 바꿔보십시오.
-
-```shell
-$ export PYTHONPATH=.
-```
+* [FastAPI 초급](https://github.com/NEONKID/python-mf-data-example/blob/main/fastapi_beginner/README.ko.md)
+* [FastAPI 고급](https://github.com/NEONKID/python-mf-data-example/blob/main/fastapi_advanced/README.ko.md)
 
 
 

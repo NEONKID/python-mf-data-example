@@ -2,7 +2,7 @@
 
 This document is a high-level example of using [pymfdata](https://github.com/NEONKID/python-mf-data) in FastAPI, and includes additional configuration such as dependency injection and layered architecture.
 
-* [한국어](https://github.com/NEONKID/python-mf-data-example/blob/main/README.ko.md)
+* [한국어](https://github.com/NEONKID/python-mf-data-example/blob/main/fastapi_advanced/README.ko.md)
 
 
 
