@@ -2,6 +2,8 @@
 
 이 문서는 [pymfdata](https://github.com/NEONKID/python-mf-data)를 FastAPI에서 사용한 예제 프로젝트 레포지터리 입니다.
 
+* [English](https://github.com/NEONKID/python-mf-data-example/blob/main/README.md)
+
 
 
 <br />

@@ -2,6 +2,8 @@
 
 This document is an example project repository using [pymfdata](https://github.com/NEONKID/python-mf-data) in FastAPI.
 
+* [한국어](https://github.com/NEONKID/python-mf-data-example/blob/main/README.ko.md)
+
 
 
 <br />
