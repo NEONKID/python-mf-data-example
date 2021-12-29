@@ -12,7 +12,7 @@ class MemoEntity(Base, TimestampMixin):
     id: Union[int, Column] = Column(BigInteger, primary_key=True, autoincrement=True, comment="Memo ID")
     title: Union[str, Column] = Column(String(255), nullable=False, comment="Memo Title")
     content: Union[str, Column] = Column(Text, nullable=True, comment="Memo body := content")
-    r_labels = relationship('LabelEntity', secondary="memo_labels", lazy='noload')
+    r_labels = relationship('LabelEntity', secondary="memo_labels", lazy='noload', uselist=True)
 
     @property
     def labels(self):

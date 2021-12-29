@@ -26,7 +26,7 @@ class LabelRepository(LabelRepositoryProtocol):
         return result.unique().scalars().fetchall()
 
     async def fetch_by_name(self, item_name: str) -> LabelEntity:
-        stmt = select(self._model).join(self._model.memos).where(self._model.name == item_name).options(
+        stmt = select(self._model).outerjoin(self._model.memos).where(self._model.name == item_name).options(
             contains_eager(self._model.memos)
         ).order_by(MemoEntity.updated_at.desc())
 
